@@ -1,4 +1,4 @@
-# FMCG Warehouse Dataset on Performance, Logistics, and Compliance project
+# Retail Store Inventory and Sales Data project
 # Executive Summary
 An interactive Power Bi dashboard can be downloaded
 # Business Problem
