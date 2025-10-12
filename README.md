@@ -1,4 +1,4 @@
-# Retail Store Inventory and Sales Data project
+# Retail Sales & Inventory Performance Analysis using SQL and Power BI (Retail Store Inventory and Sales Data project)
 # Executive Summary
 An interactive Power Bi dashboard can be downloaded
 # Business Problem
