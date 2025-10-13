@@ -31,7 +31,8 @@ SQL: CTEs, Joins, Case, Aggregate functions
 
   3.Check for missing values, duplicates, anomalies and inconsistencies
 
-  4.Summarize the data with descriptive statistics (Mean/ Median/ Mode/ Average/ Sum/ SD)
+  4.Summarize the data with descriptive statistics 
+  (Mean/ Median/ Mode/ Average/ Sum/ SD)
 
   5.Check the distribution of variables
 
@@ -40,7 +41,7 @@ SQL: CTEs, Joins, Case, Aggregate functions
   7.Summarize and communicate your results and turn those into business insights
 
 
-4.
+
 
 Power Bi:Dax, write functions, ETL, calculated columns, data visualization, data modeling
 
