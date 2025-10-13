@@ -10,6 +10,7 @@ Process to analyze
 2. Build a dashboard in Power Bi that tracks the number of orders in each status.
 
 3. Conduct a more detailed funnel analysis in Python to simulate changes and determine the best areas of opportunity.
+
   *Skills to show in Funnel analysis
   - Data wrangling
   - Data transformation
@@ -22,6 +23,7 @@ Process to analyze
 
 # Skills
 SQL: CTEs, Joins, Case, Aggregate functions
+
   *STEPs to do EDA
   1.Import data
 
