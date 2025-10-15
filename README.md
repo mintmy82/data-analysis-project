@@ -2,6 +2,7 @@
 (Retail Store Inventory and Sales Data project)
 # Executive Summary
 Using SQL, Python and Power BI I pulled order status data from database and created a dashboard to track orders through the funnel. After identifying that the 
+
 An interactive Power Bi dashboard can be downloaded 
 # Business Problem
 # Methodology
