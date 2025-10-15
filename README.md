@@ -6,6 +6,7 @@ This project analyzes retail sales and inventory performance using SQL, Python, 
 The dataset contains detailed information on product categories, stock levels, pricing, and sales data from a retail store.
 
 The goal was to identify trends in sales performance, analyze inventory turnover, and generate actionable insights for demand forecasting and stock optimization.
+
 An interactive Power BI dashboard was created to visualize key metrics and support data-driven decisions.
 
 Details of SQL as per this link
