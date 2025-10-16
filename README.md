@@ -1,5 +1,4 @@
-# Retail Sales & Inventory Performance Analysis using SQL and Power BI 
-(Retail Store Inventory and Sales Data project)
+# Retail Sales & Inventory Performance Analysis Project
 # Executive Summary
 This project analyzes retail sales and inventory data to identify sales trends, optimize stock levels and improve forecasting accuracy by using SQL, Python, and Power BI to extracted, cleaned and visualized to support data-driven decision-making.
 
