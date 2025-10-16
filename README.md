@@ -19,13 +19,11 @@ https://colab.research.google.com/drive/1UAKHW73xEhtb32CRFyIQNya1W-5Z_4ND?usp=sh
 
 Retail businesses often struggle with:
 - Overstock and stockouts due to poor demand forecasting
-- Limited visibility into product-level sales performance
-- Lack of centralized dashboard to monitor real-time inventory status
+- Limited visibility into real-time inventory performance
+- Lack of centralized system for monitoring product sales
 
-The objective was to build a system that enables:
-- Efficient tracking of stock and sales trends
-- Identification of high-performing and underperforming products
-- Insights to optimize inventory management
+The goal are Build an end-to-end analytics pipeline to track performance, identify bottlenecks and provide actionable insights. 
+
 # Methodology
 Step 1 — Data Extraction (SQL)
 - Used SQL queries with CTEs, Joins, and CASE statements to extract and clean data from the retail sales database.
@@ -37,11 +35,11 @@ Step 2 — Data Processing (Python)
 
 Step 3 — Visualization (Power BI)
 - Built an interactive Power BI dashboard with key KPIs:
-  Sales Revenue
-  Stock Level & Turnover Rate
-  Top-Selling Categories
-  Monthly Sales Trend
-- Used DAX measures and data modeling to create relationships between tables.
+  Sales by category
+  Inventory Turnover 
+  Promotion vs Holiday sales
+  Product funnel analysis
+
 
 
 # Skills
@@ -56,38 +54,38 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 <img width="816" height="470" alt="image" src="https://github.com/user-attachments/assets/b3d8b29e-fca2-44e8-a271-3fd81ed85ebf" />
 
 # Observation:
-จากกราฟ “Product Funnel”
-สินค้าที่ Fully Sold มีจำนวนคำสั่งซื้อสูงสุด (~38,000)
-Partially Sold ประมาณ (~35,000)
-ส่วน Ordered but not Sold มีน้อยมาก (<1,000)
+- Fully Sold: products dominate (~38k orders)
+- Partially Sold: ~35k orders -> nearly half of all sales
+- Ordered but not Sola < 1k
 
 # Interpretation:
-ช่องทางการขายของร้านมีอัตราการขายสำเร็จสูงมาก (~95%) แสดงถึง ประสิทธิภาพของระบบ fulfillment และ demand forecasting ที่ดี
-แต่สัดส่วน “Partially Sold” ที่ยังมีมาก (~47%) อาจบ่งชี้ถึงปัญหา สต็อกไม่เพียงพอ หรือการจัดการ order ที่ยังไม่สมบูรณ์
+High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or order process issues.
 
 # Recommendation:
-วิเคราะห์สาเหตุของ “Partially Sold” เพิ่มเติม เช่น ปัญหาสต็อก หรือสินค้าหมดกลางรอบโปรโมชั่น
-พัฒนา inventory alert system เพื่อป้องกันสินค้าขาดช่วงระหว่าง order
-สามารถใช้ Funnel นี้ติดตาม conversion rate ต่อเนื่อง และสร้าง KPI เพื่อ monitor “Order Fulfillment Rate”
+- Investigate root causes of 'Partially Sold' items
+- Add inventory alerts to prevent stockouts
+- Create KPIs to monitor fulfillment rate
 
 2. Units Sold by Holiday / Promotion
 <img width="540" height="393" alt="image" src="https://github.com/user-attachments/assets/5b8930ac-2b15-4ba2-a18e-bf6a63867551" />
 
 # Observation:
-จากกราฟพบว่า “ช่วงวันหยุด (Holiday)” มียอดขายสูงที่สุด (~220 units)
-รองลงมาคือ “ช่วงมีโปรโมชั่น (Promotion)” (~150 units) และ “ไม่มีโปรโมชั่น/วันพิเศษ (None)” มียอดขายน้อยที่สุด (~80 units)
+- Holiday Sales: highest (~220 units)
+- Promotion : ~150 units
+- No event : lowest (~80 units)
 
 # Interpretation:
-ช่วงวันหยุดและโปรโมชั่นมีอิทธิพลโดยตรงต่อยอดขาย เนื่องจากลูกค้ามีแนวโน้มจับจ่ายมากขึ้น
-แต่การที่ “Holiday” ทำยอดขายสูงกว่า “Promotion” แสดงให้เห็นว่าพฤติกรรมการซื้ออาจได้รับผลจาก “เวลา” มากกว่า “ราคา”
+-Time (Holiday) drives more purchases than price (Promotion)
 
 # Recommendation:
-ควรออกแคมเปญส่งเสริมการขาย ก่อนและระหว่างวันหยุดสำคัญ เพื่อเพิ่มยอดขายสูงสุด
-ใช้ข้อมูลนี้ในการวางแผน inventory stocking และ workforce scheduling ให้เพียงพอช่วงเทศกาล
+- Launch promotions ** before holidays ** for higher impact
+- Align stock planning and staffing with seasonal pecks
 
 
 # Next Steps
+1. Implement A/B testing for pricing & campaign timimg
+2. Integrate real-time POS data to Power BI
+3. Develop predictive demand forcasting model
 
-1. Implement A/B testing for pricing and promotion strategies
-2. Integrate real-time data feed from POS system into Power BI
-3. Build a predictive model for demand forecasting using regression techniques
+
+
