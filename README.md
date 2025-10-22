@@ -3,7 +3,7 @@
 This project analyzes retail sales and inventory data to identify sales trends, optimize stock levels and improve forecasting accuracy by using SQL, Python, and Power BI to extracted, cleaned and visualized to support data-driven decision-making.
 
 A Power BI dashboard was created to visualize key metrics and support data-driven decisions.
-https://drive.google.com/file/d/1pm55gCNfQzUek9UYT_-h9qtKU-qgdh1U/view?usp=sharing
+(https://app.powerbi.com/groups/me/reports/53994073-1733-4e53-9277-b8cbec463f40/f896bf7948233a429d6c?experience=power-bi)
 
 Details of SQL as per this link
 https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1sretail-project-475002!2sus-central1!3sd1d8b90a-53db-4386-9ff4-a1f2ab06dd56!2e1
