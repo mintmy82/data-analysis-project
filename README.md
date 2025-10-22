@@ -44,7 +44,7 @@ Power Bi:Dax, write functions, ETL, calculated columns, data visualization, data
 Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel, statistics
 
 # Results and Business Recommendations
-1. Product Funnel Analysis
+# 1. Product Funnel Analysis
 <img width="816" height="470" alt="image" src="https://github.com/user-attachments/assets/b3d8b29e-fca2-44e8-a271-3fd81ed85ebf" />
 
 # Observation:
@@ -60,7 +60,7 @@ High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or or
 - Add inventory alerts to prevent stockouts
 - Create KPIs to monitor fulfillment rate
 
-2. Units Sold by Holiday / Promotion
+# 2. Units Sold by Holiday / Promotion
 <img width="540" height="393" alt="image" src="https://github.com/user-attachments/assets/5b8930ac-2b15-4ba2-a18e-bf6a63867551" />
 
 # Observation:
@@ -74,7 +74,7 @@ High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or or
 # Recommendation:
 Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture early spenders and maximize campaign reach.
 
-3.  Category Performance and Seasonal Impact
+# 3.  Category Performance and Seasonal Impact
    <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
 
 # Observation:
