@@ -2,7 +2,8 @@
 # Executive Summary
 This project analyzes retail sales and inventory data to identify sales trends, optimize stock levels and improve forecasting accuracy by using SQL, Python, and Power BI to extracted, cleaned and visualized to support data-driven decision-making.
 
-An interactive Power BI dashboard was created to visualize key metrics and support data-driven decisions.
+A Power BI dashboard was created to visualize key metrics and support data-driven decisions.
+https://drive.google.com/file/d/1pm55gCNfQzUek9UYT_-h9qtKU-qgdh1U/view?usp=sharing
 
 Details of SQL as per this link
 https://console.cloud.google.com/bigquery?ws=!1m7!1m6!12m5!1m3!1sretail-project-475002!2sus-central1!3sd1d8b90a-53db-4386-9ff4-a1f2ab06dd56!2e1
@@ -33,9 +34,7 @@ Step 3 — Visualization (Power BI)
   Sales by category
   Inventory Turnover 
   Promotion vs Holiday sales
-  Product funnel analysis
-
-
+  Fullfillment rate
 
 # Skills
 SQL: CTEs, Joins, Case, Aggregate functions
@@ -70,12 +69,22 @@ High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or or
 - No event : lowest (~80 units)
 
 # Interpretation:
--Time (Holiday) drives more purchases than price (Promotion)
+- High sales during Holidays suggest non-price factors (e.g., increased traffic/gift-giving) are primary drivers. Promotions are a secondary boost.
 
 # Recommendation:
-- Launch promotions ** before holidays ** for higher impact
-- Align stock planning and staffing with seasonal pecks
+Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture early spenders and maximize campaign reach.
 
+3.  Category Performance and Seasonal Impact
+   <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
+
+# Observation:
+Electronics and Toys drive ≈40% of total revenue. Groceries show the strongest seasonality, peaking in Winter (25.25% of annual sales).
+
+# Interpretation:
+The gap in Units Ordered vs Sold for Clothing (approx. 0.4M) suggests potential fulfillment bottlenecks, warranting immediate investigation.
+
+# Recommendation:
+Prioritize Winter stock allocation for Groceries. Investigate and resolve fulfillment/stock management issues for Clothing to optimize the sales pipeline.
 
 # Next Steps
 1. Implement A/B testing for pricing & campaign timimg
