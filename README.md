@@ -18,7 +18,7 @@ Retail businesses often struggle with:
 - Limited visibility into real-time inventory performance
 - Lack of centralized system for monitoring product sales
 
-The goal are to Build an end-to-end analytics pipeline to track performance, identify bottlenecks and provide actionable insights. 
+The goal are to build an end-to-end analytics pipeline to track performance, identify bottlenecks and provide actionable insights. 
 
 # Methodology
 Step 1 — Data Extraction (SQL)
@@ -53,7 +53,7 @@ Observation:
 - Ordered but not Sola < 1k
 
 Interpretation:
-High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or order process issues.
+Fully Sold products dominate (≈38K orders). The 'Partially Sold' rate is significant (≈35K orders), indicating a high potential to improve fulfillment.
 
 Recommendation:
 - Investigate root causes of 'Partially Sold' items
@@ -78,7 +78,7 @@ Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture
    <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
 
 Observation:
-Electronics and Toys drive ≈40% of total revenue. Groceries show the strongest seasonality, peaking in Winter (25.25% of annual sales).
+Electronics & Toys are top revenue drivers (≈40% of total sales). Groceries exhibit the strongest seasonality, with peak sales in Winter (≈25% of annual sales).
 
 Interpretation:
 While top categories drive volume, the analysis reveals clear, distinct seasonal demand patterns (e.g., Groceries/Winter) that are crucial for efficient capital expenditure and inventory control.
