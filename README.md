@@ -78,13 +78,16 @@ Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture
    <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
 
 Observation:
-Electronics & Toys are top revenue drivers (≈40% of total sales). Groceries exhibit the strongest seasonality, with peak sales in Winter (≈25% of annual sales).
+
+- Electronics & Toys are top revenue drivers (≈40% of total sales). Groceries exhibit the strongest seasonality, with peak sales in Winter (≈25% of annual sales).
 
 Interpretation:
-While top categories drive volume, the analysis reveals clear, distinct seasonal demand patterns (e.g., Groceries/Winter) that are crucial for efficient capital expenditure and inventory control.
+
+- While top categories drive volume, the analysis reveals clear, distinct seasonal demand patterns (e.g., Groceries/Winter) that are crucial for efficient capital expenditure and inventory control.
 
 Recommendation:
-Prioritize advertising spend and Winter stock allocation for Groceries. Implement rolling 90-day seasonal forecasts for high-variability products.
+
+- Prioritize advertising spend and Winter stock allocation for Groceries. Implement rolling 90-day seasonal forecasts for high-variability products.
 
 # Next Steps
 1. Implement A/B testing for pricing & campaign timimg
