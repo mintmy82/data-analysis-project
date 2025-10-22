@@ -1,6 +1,6 @@
 # Retail Sales & Inventory Performance Analysis Project
 # Executive Summary
-This project analyzes retail sales and inventory data to identify sales trends, optimize stock levels and improve forecasting accuracy by using SQL, Python, and Power BI to extracted, cleaned and visualized to support data-driven decision-making.
+The project delivered an end-to-end analytics pipeline using SQL/Python/Power BI, resulting in actionable recommendations that could improve fulfillment efficiency by 5% and optimize seasonal stocking for key revenue drivers (Electronics & Toys).
 
 A Power BI dashboard was created to visualize key metrics and support data-driven decisions.
 https://app.powerbi.com/groups/me/reports/53994073-1733-4e53-9277-b8cbec463f40/f896bf7948233a429d6c?experience=power-bi
@@ -18,7 +18,7 @@ Retail businesses often struggle with:
 - Limited visibility into real-time inventory performance
 - Lack of centralized system for monitoring product sales
 
-The goal are Build an end-to-end analytics pipeline to track performance, identify bottlenecks and provide actionable insights. 
+The goal are to Build an end-to-end analytics pipeline to track performance, identify bottlenecks and provide actionable insights. 
 
 # Methodology
 Step 1 — Data Extraction (SQL)
@@ -74,17 +74,17 @@ High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or or
 # Recommendation:
 Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture early spenders and maximize campaign reach.
 
-# 3.  Category Performance and Seasonal Impact
+# 3.  Category Performance and Seasonal Impact (from dashboard powerbi)
    <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
 
 # Observation:
 Electronics and Toys drive ≈40% of total revenue. Groceries show the strongest seasonality, peaking in Winter (25.25% of annual sales).
 
 # Interpretation:
-The gap in Units Ordered vs Sold for Clothing (approx. 0.4M) suggests potential fulfillment bottlenecks, warranting immediate investigation.
+While top categories drive volume, the analysis reveals clear, distinct seasonal demand patterns (e.g., Groceries/Winter) that are crucial for efficient capital expenditure and inventory control.
 
 # Recommendation:
-Prioritize Winter stock allocation for Groceries. Investigate and resolve fulfillment/stock management issues for Clothing to optimize the sales pipeline.
+Prioritize advertising spend and Winter stock allocation for Groceries. Implement rolling 90-day seasonal forecasts for high-variability products.
 
 # Next Steps
 1. Implement A/B testing for pricing & campaign timimg
