@@ -47,15 +47,15 @@ Python: Pandas, Matplotlib, Numpy, Writing functions, building a product funnel,
 # 1. Product Funnel Analysis
 <img width="816" height="470" alt="image" src="https://github.com/user-attachments/assets/b3d8b29e-fca2-44e8-a271-3fd81ed85ebf" />
 
-# Observation:
+Observation:
 - Fully Sold: products dominate (~38k orders)
 - Partially Sold: ~35k orders -> nearly half of all sales
 - Ordered but not Sola < 1k
 
-# Interpretation:
+Interpretation:
 High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or order process issues.
 
-# Recommendation:
+Recommendation:
 - Investigate root causes of 'Partially Sold' items
 - Add inventory alerts to prevent stockouts
 - Create KPIs to monitor fulfillment rate
@@ -63,27 +63,27 @@ High fulfillment efficiency (~95%) but 'Partially Sold' may indicate stock or or
 # 2. Units Sold by Holiday / Promotion
 <img width="540" height="393" alt="image" src="https://github.com/user-attachments/assets/5b8930ac-2b15-4ba2-a18e-bf6a63867551" />
 
-# Observation:
+Observation:
 - Holiday Sales: highest (~220 units)
 - Promotion : ~150 units
 - No event : lowest (~80 units)
 
-# Interpretation:
+Interpretation:
 - High sales during Holidays suggest non-price factors (e.g., increased traffic/gift-giving) are primary drivers. Promotions are a secondary boost.
 
-# Recommendation:
+Recommendation:
 Test a strategy to launch promotions 1-2 weeks prior to holiday peaks to capture early spenders and maximize campaign reach.
 
 # 3.  Category Performance and Seasonal Impact (from dashboard powerbi)
    <img width="2808" height="1612" alt="image" src="https://github.com/user-attachments/assets/480e6941-9ca7-4032-9bd8-9145f38d1e48" />
 
-# Observation:
+Observation:
 Electronics and Toys drive ≈40% of total revenue. Groceries show the strongest seasonality, peaking in Winter (25.25% of annual sales).
 
-# Interpretation:
+Interpretation:
 While top categories drive volume, the analysis reveals clear, distinct seasonal demand patterns (e.g., Groceries/Winter) that are crucial for efficient capital expenditure and inventory control.
 
-# Recommendation:
+Recommendation:
 Prioritize advertising spend and Winter stock allocation for Groceries. Implement rolling 90-day seasonal forecasts for high-variability products.
 
 # Next Steps
